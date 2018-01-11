@@ -1,4 +1,9 @@
 describe('Bubble Sort', function(){
+  // var swapCounter; 
+  // var comparisonCounter;
+
+
+
   it('handles an empty array', function(){
     expect( bubbleSort([]) ).toEqual( [] );
   });
